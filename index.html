@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Pro</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./app.js" defer></script>
+</head>
+<body class="bg-slate-900 min-h-screen flex flex-col items-center justify-center p-4">
+    
+    <div class="bg-slate-800 w-full max-w-[340px] p-5 rounded-3xl shadow-2xl border border-slate-700">
+        <div class="mb-5">
+            <input type="text" id="input_text" readonly
+                class="w-full bg-slate-900 text-right text-4xl p-5 rounded-2xl text-blue-400 font-mono border border-slate-700 outline-none" 
+                placeholder="0">
+        </div>
+
+     <div id="container_number" class="grid grid-cols-4 gap-3 bg-gray-800 p-4 rounded-3xl">
+   </div>
+    </div>
+        
+</body>
+</html>
